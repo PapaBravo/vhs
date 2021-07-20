@@ -1,0 +1,50 @@
+{
+    "kurse": {
+        "mapping": {
+            "properties": {
+                "guid": { "type": "keyword" },
+                "nummer": { "type": "keyword" },
+                "name": { "type": "text" },
+                "untertitel": { "type": "text" },
+                "dvv_kategorie": { "type": "nested" },
+                "minimale_teilnehmerzahl": { "type": "integer" },
+                "maximale_teilnehmerzahl": {"type": "integer" },
+                "anzahl_termine": { "type": "integer" },
+                "beginn_datum": { "type": "date" },
+                "ende_datum": { "type":"date" },
+                "zielgruppe": {"type": "text" },
+                "schlagwort": { "type": "keyword"},
+                "text": [
+                    {
+                        "eigenschaft": "Beschreibung",
+                        "text": "Dieser Kurs ist Teil eines Integrationskurses gemäß §43 Aufenthaltsgesetz.\r\n\r\nDer allgemeine Integrationskurs umfasst 700 Unterrichtsstunden und hat zum Ziel, in 600 Unterrichtsstunden Deutschkenntnisse auf dem Niveau B1 des Gemeinsamen Europäischen Referenzrahmens (GER) sowie in100 Unterrichtsstunden Kenntnisse der Rechtsordnung, Kultur und Geschichte in Deutschland zu vermitteln. Der Erwerb der Deutschkenntnisse geschieht anhand von alltagsbezogenen Inhalten wie Arbeit, Wohnen, Gesundheit oder Ämter und Behörden. Im 100 Unterrichtsstunden umfassenden Orientierungskurs werden die Themenbereiche Politik in der Demokratie, Geschichte und Verantwortung sowie Mensch und Gesellschaft behandelt. Der allgemeine Integrationskurs schließt mit den beiden skalierten Abschlusstests „Deutsch-Test für Zuwanderer“ (DTZ) und „Leben in Deutschland“ (LiD) ab.  \r\n\r\nLehrbuch: Schritte plus NEU 2"
+                    },
+                    {
+                        "eigenschaft": "Zusatzinformation",
+                        "text": "Entgelte für Teilnehmende mit BAMF-Förderung (Vollzahler): Anmeldung zum Integrationskurs vor dem 01.01.2021: € 195,- ; Anmeldung zum Integrationskurs nach dem 01.01.2021: € 220,- ; Entgelt für Selbstzahler ohne BAMF-Förderung € 235,-"
+                    }
+                ],
+                "veranstaltungsort": {
+                    "name": "VHS Berlin Mitte",
+                    "adresse": {
+                        "land": "Deutschland",
+                        "plz": "10115",
+                        "ort": "Berlin",
+                        "strasse": "Linienstr. 162"
+                    },
+                    "barrierefrei": "true"
+                },
+                "preis": {
+                    "betrag": "235.00",
+                    "rabatt_moeglich": "false",
+                    "zusatz": null
+                },
+                "webadresse": {
+                    "typ": "website",
+                    "name": "zur Kursbuchung",
+                    "uri": "http://www.vhsit.berlin.de/VHSKURSE/BusinessPages/CourseDetail.aspx?id=557766"
+                }
+            }
+        }
+    }
+}

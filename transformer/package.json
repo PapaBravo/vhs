@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@elastic/app-search-node": "^7.13.1",
+    "@elastic/elasticsearch": "^7.13.0"
+  }
+}
