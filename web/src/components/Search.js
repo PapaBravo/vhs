@@ -2,7 +2,14 @@ import React, { useState } from 'react';
 import Scroll from './Scroll';
 import CourseResultList from './CourseResultList';
 
-const fields = ['name', 'untertitel', 'schlagwort'];
+const fields = [
+    'name',
+    'name.typeAhead',
+    'untertitel',
+    'untertitel.typeAhead',
+    'schlagwort',
+    'schlagwort.typeAhead',
+];
 // TODO add text arrays
 
 function buildQuery(userQuery) {
@@ -34,32 +41,12 @@ async function searchCourses(userQuery) {
     return res.hits.hits;
 }
 
-function Search({ details }) {
-
-    const [searchField, setSearchField] = useState("");
+function Search() {
     const [results, setResults] = useState([]);
-
-    // queryElastic(searchField);
-
-    const filteredPersons = details.filter(
-        person => {
-            return (
-                person
-                    .name
-                    .toLowerCase()
-                    .includes(searchField.toLowerCase()) ||
-                person
-                    .email
-                    .toLowerCase()
-                    .includes(searchField.toLowerCase())
-            );
-        }
-    );
 
     const handleChange = e => {
         searchCourses(e.target.value)
             .then(res => setResults(res));
-        setSearchField(e.target.value);
     };
 
     function searchList() {

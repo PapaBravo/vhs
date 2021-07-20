@@ -1,0 +1,264 @@
+{
+  "settings": {
+    "analysis": {
+      "filter": {
+        "german_stop": {
+          "type": "stop",
+          "stopwords": "_german_"
+        },
+        "german_stemmer": {
+          "type": "stemmer",
+          "language": "light_german"
+        }
+      },
+      "analyzer": {
+        "typeAheadAnalyzer": {
+          "tokenizer": "3gramTokenizer",
+          "filter": [
+            "lowercase",
+            "german_stop",
+            "german_normalization",
+            "german_stemmer"
+          ]
+        }
+      },
+      "tokenizer": {
+        "3gramTokenizer": {
+          "type": "ngram",
+          "min_gram": 3,
+          "max_gram": 3,
+          "token_chars": [
+            "letter",
+            "digit"
+          ]
+        }
+      }
+    }
+  },
+  "mappings": {
+    "properties": {
+      "anzahl_termine": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "beginn_datum": {
+        "type": "date"
+      },
+      "dvv_kategorie": {
+        "properties": {
+          "#text": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "@version": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          }
+        }
+      },
+      "ende_datum": {
+        "type": "date"
+      },
+      "guid": {
+        "type": "keyword",
+        "index": false
+      },
+      "maximale_teilnehmerzahl": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "minimale_teilnehmerzahl": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "name": {
+        "type": "text",
+        "fields": {
+          "typeAhead": {
+            "type": "text",
+            "analyzer": "typeAheadAnalyzer"
+          }
+        }
+      },
+      "nummer": {
+        "type": "keyword",
+        "ignore_above": 256
+      },
+      "preis": {
+        "properties": {
+          "betrag": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "rabatt_moeglich": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          }
+        }
+      },
+      "schlagwort": {
+        "type": "keyword",
+        "ignore_above": 256,
+        "fields": {
+          "typeAhead": {
+            "type": "text",
+            "analyzer": "typeAheadAnalyzer"
+          }
+        }
+      },
+      "text": {
+        "properties": {
+          "eigenschaft": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "text": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          }
+        }
+      },
+      "untertitel": {
+        "type": "text",
+        "fields": {
+          "typeAhead": {
+            "type": "text",
+            "analyzer": "typeAheadAnalyzer"
+          }
+        }
+      },
+      "veranstaltungsort": {
+        "properties": {
+          "adresse": {
+            "properties": {
+              "land": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "ort": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "plz": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "strasse": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              }
+            }
+          },
+          "barrierefrei": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "name": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          }
+        }
+      },
+      "webadresse": {
+        "properties": {
+          "name": {
+            "type": "text",
+            "index": false
+          },
+          "typ": {
+            "type": "text",
+            "index": false
+          },
+          "uri": {
+            "type": "text",
+            "index": false
+          }
+        }
+      },
+      "zielgruppe": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      }
+    }
+  }
+}

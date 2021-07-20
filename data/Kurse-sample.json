@@ -1,0 +1,1037 @@
+{
+    "veranstaltungen": {
+        "veranstaltung": [
+            {
+                "guid": "557766",
+                "nummer": "Mi404-S127S-2",
+                "name": "Deutsch Integrationskurs A1.2",
+                "untertitel": "Basiskurs Modul 2",
+                "dvv_kategorie": {
+                    "@version": "1.0",
+                    "#text": "4.04"
+                },
+                "minimale_teilnehmerzahl": "6",
+                "maximale_teilnehmerzahl": "11",
+                "anzahl_termine": "100",
+                "beginn_datum": "2021-06-23",
+                "ende_datum": "2021-08-10",
+                "zielgruppe": "Menschen mit Migrationshintergrund",
+                "schlagwort": [
+                    "A1",
+                    "BAMF Kursbeginn übermittelt",
+                    "BAMF Kursplanung aktualisieren übermittelt",
+                    "Deutsch Fremdsprache",
+                    "Intensivkurs",
+                    "Migranten",
+                    "SPRACHEN"
+                ],
+                "text": [
+                    {
+                        "eigenschaft": "Beschreibung",
+                        "text": "Dieser Kurs ist Teil eines Integrationskurses gemäß §43 Aufenthaltsgesetz.\r\n\r\nDer allgemeine Integrationskurs umfasst 700 Unterrichtsstunden und hat zum Ziel, in 600 Unterrichtsstunden Deutschkenntnisse auf dem Niveau B1 des Gemeinsamen Europäischen Referenzrahmens (GER) sowie in100 Unterrichtsstunden Kenntnisse der Rechtsordnung, Kultur und Geschichte in Deutschland zu vermitteln. Der Erwerb der Deutschkenntnisse geschieht anhand von alltagsbezogenen Inhalten wie Arbeit, Wohnen, Gesundheit oder Ämter und Behörden. Im 100 Unterrichtsstunden umfassenden Orientierungskurs werden die Themenbereiche Politik in der Demokratie, Geschichte und Verantwortung sowie Mensch und Gesellschaft behandelt. Der allgemeine Integrationskurs schließt mit den beiden skalierten Abschlusstests „Deutsch-Test für Zuwanderer“ (DTZ) und „Leben in Deutschland“ (LiD) ab.  \r\n\r\nLehrbuch: Schritte plus NEU 2"
+                    },
+                    {
+                        "eigenschaft": "Zusatzinformation",
+                        "text": "Entgelte für Teilnehmende mit BAMF-Förderung (Vollzahler): Anmeldung zum Integrationskurs vor dem 01.01.2021: € 195,- ; Anmeldung zum Integrationskurs nach dem 01.01.2021: € 220,- ; Entgelt für Selbstzahler ohne BAMF-Förderung € 235,-"
+                    }
+                ],
+                "veranstaltungsort": {
+                    "name": "VHS Berlin Mitte",
+                    "adresse": {
+                        "land": "Deutschland",
+                        "plz": "10115",
+                        "ort": "Berlin",
+                        "strasse": "Linienstr. 162"
+                    },
+                    "barrierefrei": "true"
+                },
+                "preis": {
+                    "betrag": "235.00",
+                    "rabatt_moeglich": "false",
+                    "zusatz": null
+                },
+                "webadresse": {
+                    "typ": "website",
+                    "name": "zur Kursbuchung",
+                    "uri": "http://www.vhsit.berlin.de/VHSKURSE/BusinessPages/CourseDetail.aspx?id=557766"
+                }
+            },
+            {
+                "guid": "586574",
+                "nummer": "Mi404-C066S",
+                "name": "Deutsch - B2.1",
+                "untertitel": null,
+                "dvv_kategorie": {
+                    "@version": "1.0",
+                    "#text": "4.04"
+                },
+                "minimale_teilnehmerzahl": "6",
+                "maximale_teilnehmerzahl": "8",
+                "anzahl_termine": "100",
+                "beginn_datum": "2021-06-23",
+                "ende_datum": "2021-09-20",
+                "zielgruppe": "Menschen mit Migrationshintergrund",
+                "schlagwort": [
+                    "B2",
+                    "Deutsch",
+                    "Deutsch Fremdsprache",
+                    "Migranten",
+                    "SPRACHEN"
+                ],
+                "text": [
+                    {
+                        "eigenschaft": "Beschreibung",
+                        "text": "Die Deutschkurse B2.1 und B2.2 bereiten schrittweise auf das B2 TELC Zertifikat Deutsch Plus vor.\r\nVoraussetzung: Deutsch B1.2 oder B1+\r\n\r\nLehrbuch: Aspekte neu B2, Lehr- und Arbeitsbuch, Teil 1"
+                    },
+                    {
+                        "eigenschaft": "Zusatzinformation",
+                        "text": "Sollte der Kurs aufgrund der Infektionsschutzverordnung nicht im Präsenzunterricht stattfinden können, kann dieser bzw. können die betroffenen Kursstunden als Onlineunterricht weitergeführt werden."
+                    }
+                ],
+                "veranstaltungsort": {
+                    "name": "VHS Berlin Mitte",
+                    "adresse": {
+                        "land": "Deutschland",
+                        "plz": "10115",
+                        "ort": "Berlin",
+                        "strasse": "Linienstr. 162"
+                    },
+                    "barrierefrei": "true"
+                },
+                "preis": {
+                    "betrag": "150.00",
+                    "rabatt_moeglich": "false",
+                    "zusatz": null
+                },
+                "webadresse": {
+                    "typ": "website",
+                    "name": "zur Kursbuchung",
+                    "uri": "http://www.vhsit.berlin.de/VHSKURSE/BusinessPages/CourseDetail.aspx?id=586574"
+                }
+            },
+            {
+                "guid": "546884",
+                "nummer": "Mi404-K130F-6",
+                "name": "Deutsch - Alphabetisierung - Modul 6",
+                "untertitel": "Integrationskurs mit Alphabetisierung Modul 6",
+                "dvv_kategorie": {
+                    "@version": "1.0",
+                    "#text": "4.04"
+                },
+                "minimale_teilnehmerzahl": "6",
+                "maximale_teilnehmerzahl": "9",
+                "anzahl_termine": "100",
+                "beginn_datum": "2021-06-23",
+                "ende_datum": "2021-08-17",
+                "zielgruppe": "Menschen mit Migrationshintergrund",
+                "schlagwort": [
+                    "A1",
+                    "Alphabetisierung",
+                    "BAMF Kursabschnittbeginn aktualisieren übermittelt",
+                    "Deutsch Fremdsprache",
+                    "Intensivkurs",
+                    "Migranten",
+                    "SPRACHEN"
+                ],
+                "text": [
+                    {
+                        "eigenschaft": "Beschreibung",
+                        "text": "Dieser Kurs ist Teil eines Integrationskurses gemäß §43 Aufenthaltsgesetz.\r\n\r\nDer 1000 bzw. 1300 Unterrichtsstunden umfassende Integrationskurs mit Alphabetisierung richtet sich an Migranten, die das lateinische oder ihr eigenes Alphabet nicht oder nicht ausreichend beherrschen und daher zu Beginn des Spracherwerbsprozesses einer besonderen (schrift-)sprachlichen und methodisch-didaktischen Förderung bedürfen. Im Alphabetisierungskurs wird angestrebt, dem Ziel der funktionalen Alphabetisierung der Teilnehmenden möglichst nah zu kommen und gleichzeitig Deutschkenntnisse auf dem Niveau der elementaren Sprachverwendung zu erwerben. \r\n\r\nLehrbuch: Von A bis Z - Alphabetisierungskurs A1, Klett"
+                    },
+                    {
+                        "eigenschaft": "Zusatzinformation",
+                        "text": "Entgelte für Teilnehmende mit BAMF-Förderung (Vollzahler): Anmeldung zum Integrationskurs vor dem 01.01.2021: € 195,- ; Anmeldung zum Integrationskurs nach dem 01.01.2021: € 220,- ; Entgelt für Selbstzahler ohne BAMF-Förderung € 235,-"
+                    }
+                ],
+                "veranstaltungsort": {
+                    "name": "VHS Berlin Mitte",
+                    "adresse": {
+                        "land": "Deutschland",
+                        "plz": "13347",
+                        "ort": "Berlin",
+                        "strasse": "Antonstr. 37"
+                    },
+                    "barrierefrei": "false"
+                },
+                "preis": {
+                    "betrag": "235.00",
+                    "rabatt_moeglich": "false",
+                    "zusatz": null
+                },
+                "webadresse": {
+                    "typ": "website",
+                    "name": "zur Kursbuchung",
+                    "uri": "http://www.vhsit.berlin.de/VHSKURSE/BusinessPages/CourseDetail.aspx?id=546884"
+                }
+            },
+            {
+                "guid": "601132",
+                "nummer": "TS301.058S",
+                "name": "Yoga: Faszientraining im Sommer",
+                "untertitel": null,
+                "dvv_kategorie": {
+                    "@version": "1.0",
+                    "#text": "3.01"
+                },
+                "minimale_teilnehmerzahl": "5",
+                "maximale_teilnehmerzahl": "10",
+                "anzahl_termine": "8",
+                "beginn_datum": "2021-06-23",
+                "ende_datum": "2021-07-14",
+                "zielgruppe": null,
+                "schlagwort": [
+                    "ENTSPANNUNG",
+                    "GESUNDHEIT",
+                    "Sommerkurs",
+                    "Yoga"
+                ],
+                "text": [
+                    {
+                        "eigenschaft": "Beschreibung",
+                        "text": "Hatha Yoga trainiert auch die Faszien. Beim Üben gewinnen wir einen Eindruck davon, was Faszientraining im Yoga bedeutet und wie es auf unseren Organismus wirkt.\r\nKeine Vorkenntnisse erforderlich.\r\n\r\nIm Falle pandemiebedingter Einschränkungen findet der Kurs ggf. im Freien oder online statt."
+                    },
+                    {
+                        "eigenschaft": "Zusatzinformation",
+                        "text": "Bitte mitbringen: Gymnastikmatte (oder Alternative), Handtuch sowie eine Mund-Nasen-Bedeckung für Treppen und Flure.\r\nAchtung: Umkleideräume und Duschen sind geschlossen. Umziehen erfolgt zu Hause.\r\n\r\nDie Veranstaltung findet unter Einhaltung des pandemiebedingten <a href= https://www.berlin.de/vhs-tempelhof-schoeneberg/aktuelles/mitteilungen/rahmenhygienekonzept-vhs-tempelhof-schoeneberg-940051.php> VHS Hygienekonzepts</a> statt."
+                    }
+                ],
+                "veranstaltungsort": {
+                    "name": "Schöneberg, VHS",
+                    "adresse": {
+                        "land": "Deutschland",
+                        "plz": "10781",
+                        "ort": "Berlin",
+                        "strasse": "Barbarossaplatz 5"
+                    },
+                    "barrierefrei": "true"
+                },
+                "preis": {
+                    "betrag": "24.60",
+                    "rabatt_moeglich": "true",
+                    "zusatz": "erm. Preis: 13,80 EUR"
+                },
+                "webadresse": {
+                    "typ": "website",
+                    "name": "zur Kursbuchung",
+                    "uri": "http://www.vhsit.berlin.de/VHSKURSE/BusinessPages/CourseDetail.aspx?id=601132"
+                }
+            },
+            {
+                "guid": "608033",
+                "nummer": "Re40991-11-F",
+                "name": "Deutsch für Geflüchtete - B2.1 / B2.2",
+                "untertitel": null,
+                "dvv_kategorie": {
+                    "@version": "1.0",
+                    "#text": "4.04"
+                },
+                "minimale_teilnehmerzahl": "8",
+                "maximale_teilnehmerzahl": "12",
+                "anzahl_termine": "100",
+                "beginn_datum": "2021-06-23",
+                "ende_datum": "2021-09-08",
+                "zielgruppe": "Menschen mit Migrationshintergrund",
+                "schlagwort": [
+                    "B2",
+                    "Deutsch Fremdsprache",
+                    "Migranten",
+                    "SPRACHEN"
+                ],
+                "text": [
+                    {
+                        "eigenschaft": "Beschreibung",
+                        "text": "Dieser Deutschkurs ist für geflüchtete Menschen, die in Berlin gemeldet sind, keiner Schulpflicht unterliegen und keine Berechtigung zur Teilnahme an einem anderen, aus öffentlichen Mitteln geförderten, kostenlosen Deutschkurs (Integrationskurs, Berufssprachkurs) haben."
+                    },
+                    {
+                        "eigenschaft": "Zusatzinformation",
+                        "text": "Das Lehrbuch ist für die Teilnehmenden an diesem Kurs kostenfrei."
+                    }
+                ],
+                "veranstaltungsort": {
+                    "name": "Fontane-Haus",
+                    "adresse": {
+                        "land": "Deutschland",
+                        "plz": "13439",
+                        "ort": "Berlin",
+                        "strasse": "Königshorster Str. 6"
+                    },
+                    "barrierefrei": "false"
+                },
+                "preis": {
+                    "betrag": "0.00",
+                    "rabatt_moeglich": "false",
+                    "zusatz": null
+                },
+                "webadresse": {
+                    "typ": "website",
+                    "name": "zur Kursbuchung",
+                    "uri": "http://www.vhsit.berlin.de/VHSKURSE/BusinessPages/CourseDetail.aspx?id=608033"
+                }
+            },
+            {
+                "guid": "610018",
+                "nummer": "Sp4.126.2F",
+                "name": "Deutsch A 1.2 Basiskurs, Modul 2",
+                "untertitel": "Integrationskurs",
+                "dvv_kategorie": {
+                    "@version": "1.0",
+                    "#text": "4.04"
+                },
+                "minimale_teilnehmerzahl": "10",
+                "maximale_teilnehmerzahl": "11",
+                "anzahl_termine": "100",
+                "beginn_datum": "2021-06-23",
+                "ende_datum": "2021-09-08",
+                "zielgruppe": "Menschen mit Migrationshintergrund",
+                "schlagwort": [
+                    "A1",
+                    "BAMF Kursbeginn übermittelt",
+                    "BAMF Kursplanung aktualisieren übermittelt",
+                    "BAMF Kursplanung übermittelt",
+                    "Deutsch Fremdsprache",
+                    "Intensivkurs",
+                    "Migranten"
+                ],
+                "text": [
+                    {
+                        "eigenschaft": "Beschreibung",
+                        "text": "Dieser Kurs ist Teil eines Integrationskurses gemäß §43 Aufenthaltsgesetz.\r\n\r\nDer allgemeine Integrationskurs umfasst 700 Unterrichtsstunden und hat zum Ziel, in 600 Unterrichtsstunden Deutschkenntnisse auf dem Niveau B1 des Gemeinsamen Europäischen Referenzrahmens (GER) sowie in 100 Unterrichtsstunden Kenntnisse der Rechtsordnung, Kultur und Geschichte in Deutschland zu vermitteln. Der Erwerb der Deutschkenntnisse geschieht anhand von alltagsbezogenen Inhalten wie Arbeit, Wohnen, Gesundheit oder Ämter und Behörden. Im 100 Unterrichtsstunden umfassenden Orientierungskurs werden die Themenbereiche Politik in der Demokratie, Geschichte und Verantwortung sowie Mensch und Gesellschaft behandelt. Der allgemeine Integrationskurs schließt mit den beiden skalierten Abschlusstests "
+                    },
+                    {
+                        "eigenschaft": "Zusatzinformation",
+                        "text": "Anmeldung: Di 10 bis 14 Uhr, Do 15 bis 19 Uhr,Carl-Schurz-Str 17. In den Schulferien findet keine Beratung statt. Eine Förderung der Teilnehmer durch das BAMF ist möglich. Bitte bringen Sie Pass, Anmeldebescheinigung und Sozialnachweise zur Anmeldung mit."
+                    }
+                ],
+                "veranstaltungsort": {
+                    "name": "VHS Filiale Altstadt ",
+                    "adresse": {
+                        "land": "Deutschland",
+                        "plz": "13597",
+                        "ort": "Berlin",
+                        "strasse": "Carl-Schurz-Str. 59"
+                    },
+                    "barrierefrei": "false"
+                },
+                "preis": {
+                    "betrag": "235.00",
+                    "rabatt_moeglich": "false",
+                    "zusatz": null
+                },
+                "webadresse": {
+                    "typ": "website",
+                    "name": "zur Kursbuchung",
+                    "uri": "http://www.vhsit.berlin.de/VHSKURSE/BusinessPages/CourseDetail.aspx?id=610018"
+                }
+            },
+            {
+                "guid": "558511",
+                "nummer": "MH4.04-024-F",
+                "name": "Deutsch B1.1 - Modul 5 ",
+                "untertitel": "Tageskurs - 5x pro Wo.",
+                "dvv_kategorie": {
+                    "@version": "1.0",
+                    "#text": "4.04"
+                },
+                "minimale_teilnehmerzahl": "1",
+                "maximale_teilnehmerzahl": "1",
+                "anzahl_termine": "100",
+                "beginn_datum": "2021-06-23",
+                "ende_datum": "2021-08-17",
+                "zielgruppe": "Menschen mit Migrationshintergrund",
+                "schlagwort": [
+                    "B1",
+                    "BAMF Kursabschnittbeginn aktualisieren übermittelt",
+                    "Deutsch Fremdsprache",
+                    "Kompaktkurs",
+                    "Migranten",
+                    "SPRACHEN"
+                ],
+                "text": [
+                    {
+                        "eigenschaft": "Beschreibung",
+                        "text": "Der Kurs ist Teil des Integrationskurses nach § 43 IntV.\r\nDer allgemeine Integrationskurs umfasst 700 Unterrichtsstunden. Er hat zum Ziel, in 600 Unterrichtstunden Deutschkenntnisse auf dem Niveau B1 des Gemeinsamen Europäischen Referenzrahmens (GER) sowie in 100 Unterrichtsstunden Kenntnisse der Rechtsordnung, Kultur und Geschichte in Deutschland zu vermitteln. Der Erwerb der Deutschkenntnisse geschieht anhand von alltagsbezogenen Inhalten wie Arbeit, Wohnen, Gesundheit oder Ämter und Behörden. \r\nLehrmaterial: Schritte plus neu 5, Verlag Hueber, Kurs- und Arbeitsbuch mit integrierter Audio-CD zum Arbeitsbuch (ISBN 978-3-19-301085-8)"
+                    },
+                    {
+                        "eigenschaft": "Zusatzinformation",
+                        "text": "Entgelt für Selbstzahler ohne BAMF-Förderung € 235,-;\r\nEntgelt für BAMF-geförderte Teilnehmende € 220,-/195,-/155,-/120,-/0,-"
+                    }
+                ],
+                "veranstaltungsort": {
+                    "name": "VHS",
+                    "adresse": {
+                        "land": "Deutschland",
+                        "plz": "12627",
+                        "ort": "Berlin",
+                        "strasse": "Mark-Twain-Str. 27"
+                    },
+                    "barrierefrei": "true"
+                },
+                "preis": {
+                    "betrag": "235.00",
+                    "rabatt_moeglich": "true",
+                    "zusatz": "erm. Preis: 117,50 EUR"
+                },
+                "webadresse": {
+                    "typ": "website",
+                    "name": "zur Kursbuchung",
+                    "uri": "http://www.vhsit.berlin.de/VHSKURSE/BusinessPages/CourseDetail.aspx?id=558511"
+                }
+            },
+            {
+                "guid": "600936",
+                "nummer": "SZ623-010",
+                "name": "Keramikkurs am Vormittag - Arbeiten mit Ton",
+                "untertitel": "Für Anfänger*innen und Fortgeschrittene ",
+                "dvv_kategorie": {
+                    "@version": "1.0",
+                    "#text": "2.08"
+                },
+                "minimale_teilnehmerzahl": "4",
+                "maximale_teilnehmerzahl": "4",
+                "anzahl_termine": "24",
+                "beginn_datum": "2021-06-23",
+                "ende_datum": "2021-08-04",
+                "zielgruppe": null,
+                "schlagwort": [
+                    "Keramik",
+                    "KULTUR",
+                    "PLASTISCHES GESTALTEN"
+                ],
+                "text": [
+                    {
+                        "eigenschaft": "Beschreibung",
+                        "text": "Modellieren Sie mit Ton ein Objekt Ihrer Wahl: sei es eine figürliche Plastik (eine Tierform), ein abstraktes Kugelobjekt oder Gefäße wie Schalen oder Vasen und verleihen Sie Ihrer Fantasie einfach Ausdruck! Zur Vollendung brennen Sie Ihre Werke dann mit unterschiedlichen Glasur- und Engobe-Techniken.\r\nGenießen Sie ein Material, das unzählige Möglichkeiten bietet. Die Materialbeschaffung erfolgt nach Absprache im Kurs, bitte selbst zahlen.\r\nIm Kursentgelt sind anteilige Kosten für die technische Ausstattung (Brennofen) enthalten.\r\n\r\n"
+                    },
+                    {
+                        "eigenschaft": "Zusatzinformation",
+                        "text": null
+                    }
+                ],
+                "veranstaltungsort": {
+                    "name": "VHS",
+                    "adresse": {
+                        "land": "Deutschland",
+                        "plz": "14169",
+                        "ort": "Berlin",
+                        "strasse": "Onkel-Tom-Str. 14"
+                    },
+                    "barrierefrei": "false"
+                },
+                "preis": {
+                    "betrag": "100.75",
+                    "rabatt_moeglich": "true",
+                    "zusatz": "erm. Preis: 54,55 EUR"
+                },
+                "webadresse": {
+                    "typ": "website",
+                    "name": "zur Kursbuchung",
+                    "uri": "http://www.vhsit.berlin.de/VHSKURSE/BusinessPages/CourseDetail.aspx?id=600936"
+                }
+            },
+            {
+                "guid": "600638",
+                "nummer": "CW703-281F-Online",
+                "name": "Digitale Werkstatt 50+ - Wie kann ich mich online im Internet bei der VHS anmelden?",
+                "untertitel": "Registrierungsprozesse online ",
+                "dvv_kategorie": {
+                    "@version": "1.0",
+                    "#text": "7.03"
+                },
+                "minimale_teilnehmerzahl": "6",
+                "maximale_teilnehmerzahl": "7",
+                "anzahl_termine": "3",
+                "beginn_datum": "2021-06-23",
+                "ende_datum": "2021-06-23",
+                "zielgruppe": "Ältere",
+                "schlagwort": [
+                    "BigBlueButton",
+                    "EDV",
+                    "GRUNDBILDUNG",
+                    "Internet",
+                    "Onlinekurs",
+                    "Senioren"
+                ],
+                "text": [
+                    {
+                        "eigenschaft": "Beschreibung",
+                        "text": "Dieser Kurs bietet Menschen im Alter über 50 Jahre die Möglichkeit, sich im Internet mit den Online-Bildungsangeboten der VHS vertrauter zu machen.\r\n\r\nTeilnahmevoraussetzung\r\nIn diesem Grundlagenkurs lernen Sie als Anfängerin oder Anfänger \r\nSchritt für Schritt den Einstieg zur VHS – Kursanmeldung im Internet kennen. \r\nSie sollten geübt sein im Umgang mit dem Computer (Maus, Tastatur, Internet, E-Mail). Es werden keine Kenntnisse des Lernportals vorausgesetzt.\r\nSie benötigen zur Schulung einen eigenen Laptop, Tablet mit Internetzugang und Kamera oder Smartphone. \r\nAuf Ihrem Laptop muss ein aktueller Browser (Google Chrome oder Firefox) installiert sein.\r\nThemenübersicht:\r\nWie richte ich ein Web-Benutzerkonto ein? Warum brauche ich das für meine Online-Anmeldung?\r\nWas ist ein SEPA-Lastschriftmandat und warum benötigt das die VHS?\r\nIch habe ein Web-Benutzerkonto von der Volkshochschule, wie melde ich mich nun an?\r\nWarum brauche ich einen Warenkorb?\r\nWie kann ich sehen, welche Kurse ich gebucht habe und welche reserviert? \r\nKann ich meine Daten im Web-Benutzerkonto ändern?\r\nIch habe mein Passwort vergessen! Wie bekomme ich es wieder?"
+                    },
+                    {
+                        "eigenschaft": "Zusatzinformation",
+                        "text": "Dieser Kurs findet online statt.\r\nBitte melden Sie sich zuerst wie gewohnt an der VHS für den Kurs an. Wir starten in der Videokonferenz Big Blue Button und Sie lernen - Schritt für Schritt - den Einstieg in die VHS-Online-Anmeldung.  \r\nSie erhalten kurz vor Kursbeginn (spätestens am Tag des Kursbeginns) Ihren Zugangslink per Mail. \r\n\r\nDer Kurs findet in einfacher Sprache statt!"
+                    }
+                ],
+                "veranstaltungsort": {
+                    "name": "Haus der Volkshochschule",
+                    "adresse": {
+                        "land": "Deutschland",
+                        "plz": "10627",
+                        "ort": "Berlin",
+                        "strasse": "Pestalozzistr. 40/41"
+                    },
+                    "barrierefrei": "true"
+                },
+                "preis": {
+                    "betrag": "0.00",
+                    "rabatt_moeglich": "false",
+                    "zusatz": null
+                },
+                "webadresse": {
+                    "typ": "website",
+                    "name": "zur Kursbuchung",
+                    "uri": "http://www.vhsit.berlin.de/VHSKURSE/BusinessPages/CourseDetail.aspx?id=600638"
+                }
+            },
+            {
+                "guid": "601133",
+                "nummer": "TS301.062S",
+                "name": "Yoga: Die Sonne begrüßen",
+                "untertitel": null,
+                "dvv_kategorie": {
+                    "@version": "1.0",
+                    "#text": "3.01"
+                },
+                "minimale_teilnehmerzahl": "5",
+                "maximale_teilnehmerzahl": "10",
+                "anzahl_termine": "8",
+                "beginn_datum": "2021-06-23",
+                "ende_datum": "2021-07-14",
+                "zielgruppe": null,
+                "schlagwort": [
+                    "ENTSPANNUNG",
+                    "GESUNDHEIT",
+                    "Sommerkurs",
+                    "Yoga"
+                ],
+                "text": [
+                    {
+                        "eigenschaft": "Beschreibung",
+                        "text": "Wir erlernen schrittweise die dynamische Bewegungsabfolge eines Sonnengrußes. Atem und Bewegung synchronisieren sich und der Kreislauf wird angeregt. Die Stunde schließt mit einer Tiefenentspannung ab.\r\nDieser Kurs ist sowohl als Einstieg ins Yoga als auch für Weitermachende geeignet, da die einzelnen Haltungen wahlweise leichte oder fordernde Varianten beinhalten.\r\n\r\nIm Falle pandemiebedingter Einschränkungen findet der Kurs ggf. im Freien oder online statt."
+                    },
+                    {
+                        "eigenschaft": "Zusatzinformation",
+                        "text": "Bitte mitbringen: Gymnastikmatte (oder Alternative), Handtuch sowie eine Mund-Nasen-Bedeckung für Treppen und Flure.\r\nAchtung: Umkleideräume und Duschen sind geschlossen. Umziehen erfolgt zu Hause.\r\n\r\nDie Veranstaltung findet unter Einhaltung des pandemiebedingten <a href= https://www.berlin.de/vhs-tempelhof-schoeneberg/aktuelles/mitteilungen/rahmenhygienekonzept-vhs-tempelhof-schoeneberg-940051.php> VHS Hygienekonzepts</a> statt.\r\nWährend des Kurses gelten die aktuellen Berliner Kontaktbestimmungen wegen der Corona-Pandemie und die Hygieneregeln der Volkshochschule. "
+                    }
+                ],
+                "veranstaltungsort": {
+                    "name": "Schöneberg, VHS",
+                    "adresse": {
+                        "land": "Deutschland",
+                        "plz": "10781",
+                        "ort": "Berlin",
+                        "strasse": "Barbarossaplatz 5"
+                    },
+                    "barrierefrei": "true"
+                },
+                "preis": {
+                    "betrag": "24.60",
+                    "rabatt_moeglich": "true",
+                    "zusatz": "erm. Preis: 13,80 EUR"
+                },
+                "webadresse": {
+                    "typ": "website",
+                    "name": "zur Kursbuchung",
+                    "uri": "http://www.vhsit.berlin.de/VHSKURSE/BusinessPages/CourseDetail.aspx?id=601133"
+                }
+            },
+            {
+                "guid": "558053",
+                "nummer": "Mi404-S134F-2",
+                "name": "Deutsch Integrationskurs A1.2",
+                "untertitel": "Basiskurs Modul 2",
+                "dvv_kategorie": {
+                    "@version": "1.0",
+                    "#text": "4.04"
+                },
+                "minimale_teilnehmerzahl": "8",
+                "maximale_teilnehmerzahl": "10",
+                "anzahl_termine": "100",
+                "beginn_datum": "2021-06-23",
+                "ende_datum": "2021-08-17",
+                "zielgruppe": "Menschen mit Migrationshintergrund",
+                "schlagwort": [
+                    "A1",
+                    "BAMF Kursbeginn übermittelt",
+                    "BAMF Kursplanung aktualisieren übermittelt",
+                    "BAMF Kursplanung übermittelt",
+                    "Deutsch Fremdsprache",
+                    "Intensivkurs",
+                    "Migranten",
+                    "SPRACHEN"
+                ],
+                "text": [
+                    {
+                        "eigenschaft": "Beschreibung",
+                        "text": "Dieser Kurs ist Teil eines Integrationskurses gemäß §43 Aufenthaltsgesetz.\r\n\r\nDer allgemeine Integrationskurs umfasst 700 Unterrichtsstunden und hat zum Ziel, in 600 Unterrichtsstunden Deutschkenntnisse auf dem Niveau B1 des Gemeinsamen Europäischen Referenzrahmens (GER) sowie in 100 Unterrichtsstunden Kenntnisse der Rechtsordnung, Kultur und Geschichte in Deutschland zu vermitteln. Der Erwerb der Deutschkenntnisse geschieht anhand von alltagsbezogenen Inhalten wie Arbeit, Wohnen, Gesundheit oder Ämter und Behörden. Im 100 Unterrichtsstunden umfassenden Orientierungskurs werden die Themenbereiche Politik in der Demokratie, Geschichte und Verantwortung sowie Mensch und Gesellschaft behandelt. Der allgemeine Integrationskurs schließt mit den beiden skalierten Abschlusstests „Deutsch-Test für Zuwanderer“ (DTZ) und „Leben in Deutschland“ (LiD) ab.\r\n\r\nLehrbuch: Schritte Plus NEU 2"
+                    },
+                    {
+                        "eigenschaft": "Zusatzinformation",
+                        "text": "Entgelte für Teilnehmende mit BAMF-Förderung (Vollzahler): Anmeldung zum Integrationskurs vor dem 01.01.2021: € 195,- ; Anmeldung zum Integrationskurs nach dem 01.01.2021: € 220,- ; Entgelt für Selbstzahler ohne BAMF-Förderung € 235,-"
+                    }
+                ],
+                "veranstaltungsort": {
+                    "name": "VHS Berlin Mitte",
+                    "adresse": {
+                        "land": "Deutschland",
+                        "plz": "13347",
+                        "ort": "Berlin",
+                        "strasse": "Antonstr. 37"
+                    },
+                    "barrierefrei": "true"
+                },
+                "preis": {
+                    "betrag": "235.00",
+                    "rabatt_moeglich": "false",
+                    "zusatz": null
+                },
+                "webadresse": {
+                    "typ": "website",
+                    "name": "zur Kursbuchung",
+                    "uri": "http://www.vhsit.berlin.de/VHSKURSE/BusinessPages/CourseDetail.aspx?id=558053"
+                }
+            },
+            {
+                "guid": "594338",
+                "nummer": "Mi404-S005H-LiD",
+                "name": "Deutsch Orientierungskurs - Abschlusstest \"Leben in Deutschland\"",
+                "untertitel": null,
+                "dvv_kategorie": {
+                    "@version": "1.0",
+                    "#text": "4.04"
+                },
+                "minimale_teilnehmerzahl": "5",
+                "maximale_teilnehmerzahl": "11",
+                "anzahl_termine": "1",
+                "beginn_datum": "2021-06-23",
+                "ende_datum": "2021-06-23",
+                "zielgruppe": "Menschen mit Migrationshintergrund",
+                "schlagwort": [
+                    "B1",
+                    "Deutsch Fremdsprache",
+                    "Migranten",
+                    "Orientierungskurs",
+                    "SPRACHEN"
+                ],
+                "text": [
+                    {
+                        "eigenschaft": "Beschreibung",
+                        "text": "Dieser Kurs ist Teil eines Integrationskurses gemäß §43 Aufenthaltsgesetz.\r\n\r\nIm Orientierungskurs werden Themen aus den Bereichen: Politik in der Demokratie,  Geschichte und Verantwortung und Mensch und Gesellschaft nach den  inhaltlichen Vorgaben des Bundesamtes für Migration und Flüchtlinge (BAMF) behandelt. Der Orientierungskurs wird mit einem Test abgeschlossen.\r\n\r\nLehrbuch: wird im Kurs bekannt gegeben"
+                    },
+                    {
+                        "eigenschaft": "Zusatzinformation",
+                        "text": "Entgelt für BAMF-geförderte Vollzahler € 0,- ; Entgelt für Selbstzahler ohne BAMF-Förderung € 25,-"
+                    }
+                ],
+                "veranstaltungsort": {
+                    "name": "VHS Berlin Mitte",
+                    "adresse": {
+                        "land": "Deutschland",
+                        "plz": "13347",
+                        "ort": "Berlin",
+                        "strasse": "Antonstr. 37"
+                    },
+                    "barrierefrei": "true"
+                },
+                "preis": {
+                    "betrag": "0.00",
+                    "rabatt_moeglich": "false",
+                    "zusatz": null
+                },
+                "webadresse": {
+                    "typ": "website",
+                    "name": "zur Kursbuchung",
+                    "uri": "http://www.vhsit.berlin.de/VHSKURSE/BusinessPages/CourseDetail.aspx?id=594338"
+                }
+            },
+            {
+                "guid": "616944",
+                "nummer": "Pa7412F ",
+                "name": "Deutsch für Geflüchtete A2.2 FS - Modul 1",
+                "untertitel": null,
+                "dvv_kategorie": {
+                    "@version": "1.0",
+                    "#text": "4.04"
+                },
+                "minimale_teilnehmerzahl": "4",
+                "maximale_teilnehmerzahl": "7",
+                "anzahl_termine": "39",
+                "beginn_datum": "2021-06-23",
+                "ende_datum": "2021-07-16",
+                "zielgruppe": "Menschen mit Migrationshintergrund",
+                "schlagwort": [
+                    "A2",
+                    "Alphabetisierung",
+                    "Deutsch Fremdsprache",
+                    "Migranten",
+                    "SPRACHEN"
+                ],
+                "text": [
+                    {
+                        "eigenschaft": "Beschreibung",
+                        "text": "Kurs ausschließlich für Flüchtlinge\r\nLangsames Tempo "
+                    },
+                    {
+                        "eigenschaft": "Zusatzinformation",
+                        "text": "Bitte beachten Sie unsere aktuellen <a href=\" https://www.berlin.de/vhs/volkshochschulen/pankow/aktuelles/schutz-vor-corona-hygiene-und-verhaltensregeln-911131.php \" >Hygiene- und Verhaltensregeln</a>"
+                    }
+                ],
+                "veranstaltungsort": {
+                    "name": "Kultur- und Bildungszentrum Sebastian Haffner",
+                    "adresse": {
+                        "land": "Deutschland",
+                        "plz": "10405",
+                        "ort": "Berlin",
+                        "strasse": "Prenzlauer Allee 227"
+                    },
+                    "barrierefrei": "false"
+                },
+                "preis": {
+                    "betrag": "0.00",
+                    "rabatt_moeglich": "false",
+                    "zusatz": null
+                },
+                "webadresse": {
+                    "typ": "website",
+                    "name": "zur Kursbuchung",
+                    "uri": "http://www.vhsit.berlin.de/VHSKURSE/BusinessPages/CourseDetail.aspx?id=616944"
+                }
+            },
+            {
+                "guid": "587459",
+                "nummer": "Pa6331F",
+                "name": "E-Mails, Online-Formulare und mehr - Schreiben im Internet",
+                "untertitel": "Kurs in langsamem Tempo und in einfacher Sprache",
+                "dvv_kategorie": {
+                    "@version": "1.0",
+                    "#text": "7.03"
+                },
+                "minimale_teilnehmerzahl": "6",
+                "maximale_teilnehmerzahl": "10",
+                "anzahl_termine": "4",
+                "beginn_datum": "2021-06-23",
+                "ende_datum": "2021-06-23",
+                "zielgruppe": "Analphabet/inn/en",
+                "schlagwort": [
+                    "Arbeitslose",
+                    "Behinderte",
+                    "Computer-Einführungskurs",
+                    "GRUNDBILDUNG",
+                    "Grundlagen",
+                    "Leichte Sprache",
+                    "Lerntechniken",
+                    "Lesen",
+                    "Schreiben",
+                    "Sommerkurs"
+                ],
+                "text": [
+                    {
+                        "eigenschaft": "Beschreibung",
+                        "text": "Mit einem E-Mail-Account können Sie sich privat verständigen, aber auch mit einem Amt in Kontakt treten. Manchmal müssen Sie aber dafür auch ein Online-Formular ausfüllen. Im Kurs lernen Sie langsam, wie Sie sich einen sicheren E-Mail-Account einrichten, wie Sie Anhänge verschicken können und was bei einem Online-Formular zu beachten ist.\r\n\r\nKursinhalte:\r\n- E-Mail-Anbieter im Vergleich zum Kennenlernen\r\n- E-Mails schreiben (an eine Person, an mehrere)\r\n- Fotos und Dokumente anhängen \r\n- E-Mails abrufen\r\n- Online-Formulare ausfüllen und speichern\r\n- Zeit für Fragen und Übungen\r\n\r\nBitte bringen Sie Ihr Smartphone, Ihr Tablet oder Ihren Laptop und das Ladekabel mit.\r\n\r\nMit uns werden Sie digital! \r\n\r\n"
+                    },
+                    {
+                        "eigenschaft": "Zusatzinformation",
+                        "text": null
+                    }
+                ],
+                "veranstaltungsort": {
+                    "name": "Bildungszentrum am Antonplatz",
+                    "adresse": {
+                        "land": "Deutschland",
+                        "plz": "13088",
+                        "ort": "Berlin",
+                        "strasse": "Bizetstraße 41"
+                    },
+                    "barrierefrei": "true"
+                },
+                "preis": {
+                    "betrag": "0.00",
+                    "rabatt_moeglich": "false",
+                    "zusatz": null
+                },
+                "webadresse": {
+                    "typ": "website",
+                    "name": "zur Kursbuchung",
+                    "uri": "http://www.vhsit.berlin.de/VHSKURSE/BusinessPages/CourseDetail.aspx?id=587459"
+                }
+            },
+            {
+                "guid": "589680",
+                "nummer": "MH1.15-027j-F",
+                "name": "Einblick in die Seifensiederei",
+                "untertitel": null,
+                "dvv_kategorie": {
+                    "@version": "1.0",
+                    "#text": "1.04"
+                },
+                "minimale_teilnehmerzahl": "4",
+                "maximale_teilnehmerzahl": "4",
+                "anzahl_termine": "4",
+                "beginn_datum": "2021-06-23",
+                "ende_datum": "2021-06-23",
+                "zielgruppe": null,
+                "schlagwort": [
+                    "KULTUR",
+                    "KUNSTHANDWERK",
+                    "Lebensräume",
+                    "Pflanzen",
+                    "POLITIK-GESELLSCHAFT-UMWELT",
+                    "Sommerkurs",
+                    "UMWELT"
+                ],
+                "text": [
+                    {
+                        "eigenschaft": "Beschreibung",
+                        "text": "In diesem anspruchsvollen Workshop sieden Sie Ihre eigenen Seifen mit intensiver Anleitung in kleiner Kursgröße. Wir werden zu Beginn einen kleinen Exkurs in den Chemieunterricht vornehmen und auf die Erstellung von Seifenrezepturen und die Wirkung verschiedener Fette/ Öle in Seife und deren Pflegeeigenschaften auf die Haut eingehen. Wir verseifen im Kaltverfahren hochwertige native Öle zu großartigen Seifen. Mit natürlichen ätherischen Düften stimmen wir unser Seifenrezept ab. Jede Person bekommt 600g Seife mit nach Hause, das sind etwa 10 Stück. Wir können die Rezepte nach den persönlichen Bedürfnissen anpassen. Nach frühestens 24 Stunden können die Seifen aus ihrer Form geholt werden. Danach müssen sie noch 6-8 Wochen nachreifen. Das lange Warten lohnt sich: Wer schon Naturseifen benutzt, weiß, wie hochwertig die Pflege mit ihnen ist.\r\n\r\nFür das Seifesieden wird ein Mund-Nasen-Schutz, sowie lange und nicht so gute Kleidung und festes Schuhwerk benötigt. Arme und Beine müssen gut bedeckt sein.\r\n\r\nDas Material für die Produkte wird bereitgestellt und kostet zzgl. zur Kursgebühr 15,00 € (bei der Kursleiterin vor Ort zu begleichen)."
+                    },
+                    {
+                        "eigenschaft": "Zusatzinformation",
+                        "text": "zur Kursleiterin: Heidi Riebel ist Heilpraktikerin und Beraterin. In ihrer beruflichen Tätigkeit hat sie für eine Berliner Naturkosmetik Firma gearbeitet und als Dozentin über die Inhaltsstoffe in Naturkosmetik referiert."
+                    }
+                ],
+                "veranstaltungsort": {
+                    "name": "Fühlbar Berlin",
+                    "adresse": {
+                        "land": "Deutschland",
+                        "plz": "12685",
+                        "ort": "Berlin",
+                        "strasse": "Blumberger Damm 148 "
+                    },
+                    "barrierefrei": "false"
+                },
+                "preis": {
+                    "betrag": "27.00",
+                    "rabatt_moeglich": "true",
+                    "zusatz": "erm. Preis: 15,00 EUR"
+                },
+                "webadresse": {
+                    "typ": "website",
+                    "name": "zur Kursbuchung",
+                    "uri": "http://www.vhsit.berlin.de/VHSKURSE/BusinessPages/CourseDetail.aspx?id=589680"
+                }
+            },
+            {
+                "guid": "606582",
+                "nummer": "SZ649-100",
+                "name": "Englisch A2  Refresher online",
+                "untertitel": "Grammatik Wiederholung und Konversation - Onlinekurs",
+                "dvv_kategorie": {
+                    "@version": "1.0",
+                    "#text": "4.06"
+                },
+                "minimale_teilnehmerzahl": "6",
+                "maximale_teilnehmerzahl": "10",
+                "anzahl_termine": "16",
+                "beginn_datum": "2021-06-23",
+                "ende_datum": "2021-08-11",
+                "zielgruppe": null,
+                "schlagwort": [
+                    "A2",
+                    "eLearning",
+                    "Englisch",
+                    "Fachsprache",
+                    "Konversation",
+                    "Online Learning",
+                    "Onlinekurs",
+                    "SPRACHEN",
+                    "vhs.cloud",
+                    "Wortschatz"
+                ],
+                "text": [
+                    {
+                        "eigenschaft": "Beschreibung",
+                        "text": "Wenn Sie schon A2-Niveau erreicht haben aber Ihr Englisch vor der nächsten Stufe auffrischen möchten, kann dieser Kurs dabei helfen. Wir wiederholen systematisch die Basis-Grammatik und den Wortschatz für alltägliche Situationen, um Ihre Vorkenntnisse zu reaktivieren. Um diese Strukturen anzuwenden und mehr Sicherheit zu gewinnen, werden wir auch viel miteinander sprechen.\r\nLehrmaterial wird von der Kursleitung zur Verfügung gestellt.\r\npowered by vhs.cloud: Diese Veranstaltung wird durch die Online-Lernumgebung der Deutschen Volkshochschulen unterstützt."
+                    },
+                    {
+                        "eigenschaft": "Zusatzinformation",
+                        "text": "Sie können vorab Ihr Sprachniveau Englisch testen: www.sprachtest.de"
+                    }
+                ],
+                "veranstaltungsort": {
+                    "name": "Treffpunkt",
+                    "adresse": {
+                        "land": "Deutschland",
+                        "plz": null,
+                        "ort": null,
+                        "strasse": null
+                    },
+                    "barrierefrei": "true"
+                },
+                "preis": {
+                    "betrag": "79.15",
+                    "rabatt_moeglich": "true",
+                    "zusatz": "erm. Preis: 43,15 EUR"
+                },
+                "webadresse": {
+                    "typ": "website",
+                    "name": "zur Kursbuchung",
+                    "uri": "http://www.vhsit.berlin.de/VHSKURSE/BusinessPages/CourseDetail.aspx?id=606582"
+                }
+            },
+            {
+                "guid": "598448",
+                "nummer": "Pa89617F",
+                "name": "Einbürgerungstest",
+                "untertitel": null,
+                "dvv_kategorie": {
+                    "@version": "1.0",
+                    "#text": "4.04"
+                },
+                "minimale_teilnehmerzahl": "8",
+                "maximale_teilnehmerzahl": "8",
+                "anzahl_termine": "1",
+                "beginn_datum": "2021-06-23",
+                "ende_datum": "2021-06-23",
+                "zielgruppe": "Menschen mit Migrationshintergrund",
+                "schlagwort": [
+                    "Deutsch Fremdsprache",
+                    "Einbürgerung",
+                    "Einbürgerungstest",
+                    "Migranten",
+                    "Prüfungstermin",
+                    "Sommerkurs",
+                    "SPRACHEN"
+                ],
+                "text": [
+                    {
+                        "eigenschaft": "Beschreibung",
+                        "text": "Die Einbürgerungsprüfung erfolgt in Zusammenarbeit mit dem Bezirksamt Pankow, Abt. Staatsangehörigkeitsangelegenheiten. Sie ist für Einbürgerungsbewerber gesetzlich vorgeschrieben.\r\n-\r\nDie Anmeldung für den Einbürgerungstest kann NUR persönlich erfolgen. und zwar montags von 10.00-12.00 Uhr oder 14.00-17.00 Uhr, Prenzlauer Allee 227, 10405 Bln. (Volkshochschule Pankow im Kultur- und Bildungszentrum Sebastian Haffner, Vorderhaus) bzw. donnerstags von 10.00-12.00 und 15.00-18.00 Uhr in der Schulstraße 29, 13187 Bln.(Haus der Volkshochschule Pankow). \r\nBitte bringen Sie Ihren Pass oder Ausweis mit.\r\nTelefonische Reservierungen sind NICHT möglich.\r\n\r\nAnmeldeschluss ist der 18.05.2021."
+                    },
+                    {
+                        "eigenschaft": "Zusatzinformation",
+                        "text": "Informationen zur Anmeldung und zur Volkshochschule Pankow: 030-90295-3924/-1700 | deutsch@vhspankow.de | www.deutsch.vhspankow.de | facebook.com/vhspankow | twitter.com/vhspankow | Willkommen zu unseren Kursen!"
+                    }
+                ],
+                "veranstaltungsort": {
+                    "name": "Haus der Volkshochschule Pankow",
+                    "adresse": {
+                        "land": "Deutschland",
+                        "plz": "13187",
+                        "ort": "Berlin",
+                        "strasse": "Schulstraße 29"
+                    },
+                    "barrierefrei": "false"
+                },
+                "preis": {
+                    "betrag": "25.00",
+                    "rabatt_moeglich": "false",
+                    "zusatz": null
+                },
+                "webadresse": {
+                    "typ": "website",
+                    "name": "zur Kursbuchung",
+                    "uri": "http://www.vhsit.berlin.de/VHSKURSE/BusinessPages/CourseDetail.aspx?id=598448"
+                }
+            },
+            {
+                "guid": "590949",
+                "nummer": "Pa4251F",
+                "name": "Englisch B1+/B2 - Summer Time: Writing in English Made Easy",
+                "untertitel": "Online-Kurs",
+                "dvv_kategorie": {
+                    "@version": "1.0",
+                    "#text": "4.06"
+                },
+                "minimale_teilnehmerzahl": "6",
+                "maximale_teilnehmerzahl": "8",
+                "anzahl_termine": "12",
+                "beginn_datum": "2021-06-23",
+                "ende_datum": "2021-07-14",
+                "zielgruppe": null,
+                "schlagwort": [
+                    "B2",
+                    "eLearning",
+                    "Englisch",
+                    "Konversation",
+                    "Online Learning",
+                    "Onlinekurs",
+                    "Sommerkurs",
+                    "SPRACHEN",
+                    "vhs.cloud"
+                ],
+                "text": [
+                    {
+                        "eigenschaft": "Beschreibung",
+                        "text": "This short and fun summer course focuses on writing skills: formal and informal. Emails, anecdotes, narratives, and more will be covered in detail. You may be proficient in speaking, but when it comes to writing you wonder about the right tense, rightwords, right connotation. If that is the case, here is an opportunity you cannot and should not let pass. Join us and feel more confident every time you type a word, or pick up a pen.\r\nCourse material will be provided by the teacher."
+                    },
+                    {
+                        "eigenschaft": "Zusatzinformation",
+                        "text": "Der Kurs wird in diesem Frühjahrssemester als Online-Kurs angeboten.Für eine Teilnahme gehen Sie bitte wie folgt vor:\r\n<br><br>\r\n<b>Schritte zur Anmeldung und Kursteilnahme: </b>\r\n<br><br>\r\n<b>1.</b> Melden Sie sich für den Kurs bei der VHS Pankow an:\r\n<br/>> In den Warenkorb<br/>> Zur Kasse gehen<br><a href=\"https://www.vhsit.berlin.de/VHSKURSE/vhs_texte/Info_Anmelden.aspx\"; >Weitere Informationen zur Online-Anmeldung</a>\r\n<br><br>\r\n<b>2.</b> Melden Sie sich bei der Lernplattform vhs.cloud an.<br/><a href=\"https://www.vhs.cloud/wws/9.php#/wws/registrierung-formular-kursmitglied.php\"; >Zur Anmeldung in der vhs.cloud</a>\r\n<br><br>\r\n<b>3.</b> Treten Sie mit dem folgenden Kurs-Code Ihrem Kurs bei: 590949@berlin.vhs.cloud<br/><a href=\"https://www.vhs.cloud/wws/9.php#/wws/kurs-beitreten.php\"; >Zum Kursbeitritt in der vhs.cloud</a>\r\n<br><br>\r\nFolgende Technik benötigen Sie für die Online-Durchführung: Headset (alternativ Lautsprecher und Mikrofon), internetfähiges Endgerät mit Internetbrowser Mozilla Firefox oder Google Chrome (möglichst kein Smartphone).\r\n<br/><br/>\r\nBitte beachten Sie darüber hinaus unsere aktuellen <a href=\" https://www.berlin.de/vhs/volkshochschulen/pankow/aktuelles/schutz-vor-corona-hygiene-und-verhaltensregeln-911131.php \" >Hygiene- und Verhaltensregeln</a>"
+                    }
+                ],
+                "veranstaltungsort": {
+                    "name": "Kultur- und Bildungszentrum Sebastian Haffner",
+                    "adresse": {
+                        "land": "Deutschland",
+                        "plz": "10405",
+                        "ort": "Berlin",
+                        "strasse": "Prenzlauer Allee 227"
+                    },
+                    "barrierefrei": "false"
+                },
+                "preis": {
+                    "betrag": "45.60",
+                    "rabatt_moeglich": "true",
+                    "zusatz": "erm. Preis: 25,20 EUR"
+                },
+                "webadresse": {
+                    "typ": "website",
+                    "name": "zur Kursbuchung",
+                    "uri": "http://www.vhsit.berlin.de/VHSKURSE/BusinessPages/CourseDetail.aspx?id=590949"
+                }
+            },
+            {
+                "guid": "565746",
+                "nummer": "CW207-299F",
+                "name": "Stadt in Bewegung - Freies Zeichnen und Malen",
+                "untertitel": null,
+                "dvv_kategorie": {
+                    "@version": "1.0",
+                    "#text": "2.07"
+                },
+                "minimale_teilnehmerzahl": "5",
+                "maximale_teilnehmerzahl": "7",
+                "anzahl_termine": "20",
+                "beginn_datum": "2021-06-23",
+                "ende_datum": "2021-06-27",
+                "zielgruppe": null,
+                "schlagwort": [
+                    "KULTUR",
+                    "MALEN",
+                    "Sommerkurs",
+                    "Stadt-Land-Natur",
+                    "ZEICHNEN"
+                ],
+                "text": [
+                    {
+                        "eigenschaft": "Beschreibung",
+                        "text": "Fußgänger, Radfahrer, Autos - die Stadt ist immer in Bewegung. Und wie verändert sich ein Ort über den Tag? Am Potsdamer Platz gibt es viele Sichten, von denen aus sich die unterschiedlichen Bewegungen auf dem Papier «einfangen» lassen. Der Kurs richtet sich an «Anfänger/innen», die immer dachten, sie könnten nicht zeichnen und malen, aber Lust haben, es zu tun, und an «Fortgeschrittene», die mit Neugier in ihren Bildern neue und vielleicht fremde Aspekte herausfinden wollen. Die verschiedenen Schritte der künstlerischen Arbeit kennenzulernen, von der Skizze zum fertigen Bild, ob figürlich oder abstrakt, sind Ziel dieses Kurses.\r\nBitte Skizzenblock (ab DIN A3) Tusche, Gouache, Bleistifte, Ölkreide, Pinsel, Wassergläser mit Deckel, und evtl einen Klapphocker mitbringen. \r\nVorbereitungstermin: Mittwoch, 23.6.2021 in der VHS\r\nAußer dem Vorbereitungstermin am Mittwoch findet der Kurs im Freien im und auf dem Potsdamer Platz statt. Treffpunkt am Samstag 10.00 Cafe Balzac, Potsdamer Platz 10 (Stresemannstraße)"
+                    },
+                    {
+                        "eigenschaft": "Zusatzinformation",
+                        "text": "Wegen der Corona-Pandemie gelten die Hygieneregeln der Volkshochschule City West und  die aktuellen Berliner Kontaktbestimmungen (SARS-CoV-2-Infektionsschutzverordnung). Es muss regelmäßig gelüftet werden bzw bei offenem Fenster gearbeitet werden; berücksichtigen Sie dies bei der Wahl  Ihrer Kleidung. Bitte berücksichtigen Sie, dass Sie für Ihre Überbekleidung die Garderoben nicht nutzen können. Weitere Informationen s. https://www.berlin.de/vhs/volkshochschulen/charlottenburg-wilmersdorf/\r\nund https://www.berlin.de/corona/massnahmen/verordnung\r\n"
+                    }
+                ],
+                "veranstaltungsort": {
+                    "name": "VHS Prinzregentenstraße",
+                    "adresse": {
+                        "land": "Deutschland",
+                        "plz": "10715",
+                        "ort": "Berlin",
+                        "strasse": "Prinzregentenstr. 33-34"
+                    },
+                    "barrierefrei": "true"
+                },
+                "preis": {
+                    "betrag": "74.00",
+                    "rabatt_moeglich": "true",
+                    "zusatz": "erm. Preis: 39,00 EUR"
+                },
+                "webadresse": {
+                    "typ": "website",
+                    "name": "zur Kursbuchung",
+                    "uri": "http://www.vhsit.berlin.de/VHSKURSE/BusinessPages/CourseDetail.aspx?id=565746"
+                }
+            }
+        ]
+    }
+}
