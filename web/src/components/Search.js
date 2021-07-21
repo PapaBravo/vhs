@@ -7,7 +7,7 @@ const fields = [
     'name.typeAhead',
     'untertitel',
     'untertitel.typeAhead',
-    'schlagwort',
+    'schlagwort^3',
     'schlagwort.typeAhead',
 ];
 // TODO add text arrays
@@ -19,6 +19,7 @@ function buildQuery(userQuery) {
     let query = {
         'query': {
             "multi_match": {
+                type: 'cross_fields', 
                 query: userQuery,
                 fields: fields
             }
