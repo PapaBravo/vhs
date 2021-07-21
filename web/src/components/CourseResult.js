@@ -11,7 +11,7 @@ function CourseResult({ course }) {
         {
           c.text.map(t => <p>{t.text}</p>)
         }
-        <p>{c.schlagwort.join(' | ')}</p>
+        <p className="courier">{c.schlagwort.join(' | ')}</p>
         <a href={c.webadresse.uri} target="_blank" rel="noopener noreferrer">{c.webadresse.name}</a>
 
       </div>

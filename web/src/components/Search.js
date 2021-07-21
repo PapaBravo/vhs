@@ -66,7 +66,7 @@ function Search() {
                 <input
                     className="pa3 bb br3 grow b--none bg-lightest-blue ma3"
                     type="search"
-                    placeholder="Search People"
+                    placeholder="Search Course"
                     onChange={handleChange}
                 />
             </div>
