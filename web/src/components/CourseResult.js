@@ -3,7 +3,7 @@ import React from 'react';
 function CourseResult({ course }) {
   let c = course._source;
   return (
-    <div className="tc dib br3 pa3 ma2 grow mw7 bg-washed-yellow bw2 shadow-5">
+    <div className="tc dib br3 pa3 ma2 mw7 bg-washed-yellow bw2 shadow-5">
       <div>
         <h3>{c.name}</h3>
         <h4>{c.untertitel}</h4>
