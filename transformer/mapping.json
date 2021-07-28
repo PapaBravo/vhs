@@ -185,6 +185,9 @@
                   }
                 }
               },
+              "location": {
+                "type": "geo_point"
+              },
               "ort": {
                 "type": "text",
                 "fields": {
