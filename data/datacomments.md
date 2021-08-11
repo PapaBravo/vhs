@@ -1,3 +1,9 @@
+# Sources
+
+VHS courses 
+* Open Data Portal https://daten.berlin.de/datensaetze/kurse-der-berliner-volkshochschulen
+* Deep Link https://vhsit.berlin.de/VHSKURSE/OpenData/Kurse.json
+
 # Problems
 ## `veranstaltungsort.name`
 The name does not refer to a unique location. The name `VHS` is used several times with different addresses.
