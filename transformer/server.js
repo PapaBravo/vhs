@@ -68,9 +68,7 @@ function cleanAddress(address) {
         ort: address.ort,
         fixedStreet: match ? match.replacement : address.strasse,
         strasse: address.strasse
-    } 
-    
-    ;
+    };
 } 
 
 function getUniqueLocations(data) {
@@ -155,8 +153,9 @@ async function indexDocuments(client, dataset) {
 
 async function setUp() {
     try {
-        const client = connect()
-        if (await client.indices.exists({ index: INDEX_NAME })) {
+        const client = connect();
+        const indexExistsResponse = await client.indices.exists({ index: INDEX_NAME });
+        if (indexExistsResponse.body) {
             await client.indices.delete({ index: INDEX_NAME });
         }
 
