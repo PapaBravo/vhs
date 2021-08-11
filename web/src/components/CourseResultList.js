@@ -6,9 +6,9 @@ function CourseResultList({ filteredCourses }) {
     const filtered = filteredCourses
         .map(course => <CourseResult course={course} key={course._id}/>);
     return (
-        <div className="flex item-start flex-wrap justify-center">
+        <ul className="list pl0 mt0 measure center">
             {filtered}
-        </div>
+        </ul>
     );
 }
 

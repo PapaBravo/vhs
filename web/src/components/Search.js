@@ -19,7 +19,7 @@ function buildQuery(userQuery) {
     let query = {
         'query': {
             "multi_match": {
-                type: 'cross_fields', 
+                type: 'cross_fields',
                 query: userQuery,
                 fields: fields
             }
@@ -60,18 +60,25 @@ function Search() {
 
     return (
         <section className="garamond">
-            <div className="navy georgia ma0">
-                <h2 className="f2">Search your course</h2>
-            </div>
-            <div className="pa2">
-                <input
-                    className="pa3 bb br3 b--none bg-lightest-blue ma3"
-                    type="search"
-                    placeholder="Search Course"
-                    onChange={handleChange}
-                />
-            </div>
-            {searchList()}
+            <section className="fl w-100 pa2">
+                <div className="navy georgia ma0">
+                    <h2 className="f2">Search your course</h2>
+                </div>
+                <div className="pa2">
+                    <input
+                        className="pa3 bb br3 b--none bg-lightest-blue ma3"
+                        type="search"
+                        placeholder="Search Course"
+                        onChange={handleChange}
+                    />
+                </div>
+            </section>
+            <section className="fl w-third pa2">
+                {searchList()}
+            </section>
+            <section className="fl w-two-thirds pa2 bg-green">
+
+            </section>
         </section>
     );
 }

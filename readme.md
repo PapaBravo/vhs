@@ -11,7 +11,14 @@ docker pull mediagis/nominatim:3.7
 docker network create elastic
 docker run --name es01-test --net elastic -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" -e 'http.cors.enabled=true' -e 'http.cors.allow-origin=/https?:\/\/localhost(:[0-9]+)?/' docker.elastic.co/elasticsearch/elasticsearch:7.13.2
 docker run --name kib01-test --net elastic -p 5601:5601 -e "ELASTICSEARCH_HOSTS=http://es01-test:9200" docker.elastic.co/kibana/kibana:7.13.2
-docker run -it --rm -e PBF_URL=https://download.geofabrik.de/europe/germany/berlin-latest.osm.pbf -e REPLICATION_URL=https://download.geofabrik.de/europe/germany/berlin-updates/ -p 8080:8080 --name nominatim mediagis/nominatim:3.7
+docker run --name nominatim --rm -e PBF_URL=https://download.geofabrik.de/europe/germany/berlin-latest.osm.pbf -e REPLICATION_URL=https://download.geofabrik.de/europe/germany/berlin-updates/ -p 8080:8080 mediagis/nominatim:3.7
+```
+
+## Start images later
+```sh
+docker start es01-test
+docker start kib01-test
+docker start nominatim
 ```
 
 
