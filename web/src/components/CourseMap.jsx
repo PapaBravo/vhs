@@ -17,15 +17,23 @@ function CourseMap({ filteredCourses }) {
         .map(c => c._source)
         .filter(c => c.veranstaltungsort?.adresse?.location);
 
-    function courseMarkers() {
-        return (courses.map(c =>
-            <Marker position={[c.veranstaltungsort.adresse.location.lat, c.veranstaltungsort.adresse.location.lon]}>
+
+    function courseMarker(c) {
+
+        const position = [
+            c.veranstaltungsort.adresse.location.lat,
+            c.veranstaltungsort.adresse.location.lon
+        ]
+
+        const descriptions = c.text.map(t => <p key={t.eigenschaft} dangerouslySetInnerHTML={{ __html: t.text }}></p>)
+
+        return (
+            <Marker position={position} key={c.guid}>
                 <Popup maxHeight="200">
                     <h2>{c.name}</h2>
-                    {c.text.map(t => <p dangerouslySetInnerHTML={{__html: t.text}}></p> )}
+                    {descriptions}
                 </Popup>
             </Marker>
-        )
         )
     }
 
@@ -36,7 +44,7 @@ function CourseMap({ filteredCourses }) {
                 attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
-            {courseMarkers()}
+            {courses.map(c => courseMarker(c))}
         </MapContainer>
     );
 }

@@ -20,3 +20,10 @@ The address fields are not always clean. Examples
 * 594169, "strasse": "Hermannstr. 158 A (Eingang Arztpraxen)"
 
 An additional field `hint` would help clean up the data while keeping all information.
+
+## `schlagwort`
+The type of `schlagwort` becomes `string` instead of `array of string` when only one tag is present.
+
+That is a common pattern but without documentation and a rare occurence (currently only once in the complete dataset), this is problematic.
+
+* 599563
