@@ -8,7 +8,7 @@ const fields = [
     'name.typeAhead',
     'untertitel',
     'untertitel.typeAhead',
-    'schlagwort^3',
+    'schlagwort^10',
     'schlagwort.typeAhead',
 ];
 // TODO add text arrays
@@ -69,7 +69,22 @@ function Search() {
         <div className="garamond flex flex-column h-100">
             <section className="w-100 pa2">
                 <div className="navy georgia ma0">
-                    <h2 className="f2">Search your course</h2>
+                    <h2 className="f2">VHS Berlin Course Search</h2>
+                    <p>
+                        The <a href="https://www.berlin.de/vhs/">official VHS page</a>
+                        offers a very detailed but cumbersome search.
+                        It specifically does not give good feedback
+                        on the location of courses
+                        even though that is very important for many people.
+                    </p>
+                    <p>
+                        This page is a tech demo
+                        to show that a better search of VHS courses is possible.
+                        It uses the powerful <a href="https://www.elastic.co/elasticsearch/">Elasticsearch</a> engine.
+                    </p>
+                    <p>
+                        The source code and some documentation can be found on <a href="https://github.com/PapaBravo/vhs">github</a>.
+                    </p>
                 </div>
                 <div className="pa2">
                     <input
@@ -84,7 +99,7 @@ function Search() {
                 <section className="w-third pa2">
                     {searchList()}
                 </section>
-                <section className="w-two-thirds pa2 outline">
+                <section className="w-two-thirds pa2">
                     {courseMap()}
                 </section>
             </section>
