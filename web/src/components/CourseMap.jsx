@@ -1,0 +1,44 @@
+import React from 'react';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import 'leaflet/dist/leaflet.css'
+import L from 'leaflet';
+import icon from 'leaflet/dist/images/marker-icon.png';
+import iconShadow from 'leaflet/dist/images/marker-shadow.png';
+
+function CourseMap({ filteredCourses }) {
+
+    let DefaultIcon = L.icon({
+        iconUrl: icon,
+        shadowUrl: iconShadow
+    });
+    L.Marker.prototype.options.icon = DefaultIcon;
+
+    const courses = filteredCourses
+        .map(c => c._source)
+        .filter(c => c.veranstaltungsort?.adresse?.location);
+
+    function courseMarkers() {
+        return (courses.map(c =>
+            <Marker position={[c.veranstaltungsort.adresse.location.lat, c.veranstaltungsort.adresse.location.lon]}>
+                <Popup maxHeight="200">
+                    <h2>{c.name}</h2>
+                    {c.text.map(t => <p dangerouslySetInnerHTML={{__html: t.text}}></p> )}
+                </Popup>
+            </Marker>
+        )
+        )
+    }
+
+
+    return (
+        <MapContainer center={[52.5, 13.4]} zoom={10} scrollWheelZoom={false} style={{ width: 900, height: 700 }}>
+            <TileLayer
+                attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            {courseMarkers()}
+        </MapContainer>
+    );
+}
+
+export default CourseMap;

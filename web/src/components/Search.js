@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Scroll from './Scroll';
 import CourseResultList from './CourseResultList';
+import CourseMap from './CourseMap';
 
 const fields = [
     'name',
@@ -58,9 +59,15 @@ function Search() {
         );
     }
 
+    function courseMap() {
+        return (
+            <CourseMap filteredCourses={results}></CourseMap>
+        )
+    }
+
     return (
-        <section className="garamond">
-            <section className="fl w-100 pa2">
+        <div className="garamond flex flex-column h-100">
+            <section className="w-100 pa2">
                 <div className="navy georgia ma0">
                     <h2 className="f2">Search your course</h2>
                 </div>
@@ -73,13 +80,16 @@ function Search() {
                     />
                 </div>
             </section>
-            <section className="fl w-third pa2">
-                {searchList()}
+            <section className="flex items-start relative">
+                <section className="w-third pa2">
+                    {searchList()}
+                </section>
+                <section className="w-two-thirds pa2 outline">
+                    {courseMap()}
+                </section>
             </section>
-            <section className="fl w-two-thirds pa2 bg-green">
 
-            </section>
-        </section>
+        </div>
     );
 }
 
