@@ -36,8 +36,6 @@ docker.elastic.co/elasticsearch/elasticsearch:7.13.2
 sudo docker pull docker.elastic.co/kibana/kibana:7.13.2
 sudo docker run --name kib01-test --net elastic -p 5601:5601 -e "ELASTICSEARCH_HOSTS=http://es01-test:9200" docker.elastic.co/kibana/kibana:7.13.2
 
-docker pull docker.elastic.co/app-search/app-search:7.6.2
-
 sudo docker run -p 3002:3002 \
 --net elastic \
 -e elasticsearch.host='http://es01-test:9200' \
