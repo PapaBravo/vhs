@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const fs = require('fs')
 const path = require('path')
 const { Client } = require('@elastic/elasticsearch')
@@ -131,10 +133,10 @@ async function geocode(data) {
 
 function connect() {
     const client = new Client({
-        node: 'http://localhost:9200',
+        node: process.env.ELASTIC_HOST,
         auth: {
-            username: 'elastic',
-            password: 'changeme'
+            username: process.env.ELASTIC_USER,
+            password: process.env.ELASTIC_PASSWORD
         },
         ssl: {
             ssl_no_validate: true

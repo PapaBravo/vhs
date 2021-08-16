@@ -3,6 +3,8 @@ import Scroll from './Scroll';
 import CourseResultList from './CourseResultList';
 import CourseMap from './CourseMap';
 
+const baseUrl = 'https://memory-optimized-deployment-e09c4a.es.eu-central-1.aws.cloud.es.io:9243'
+
 const fields = [
     'name',
     'name.typeAhead',
@@ -32,10 +34,11 @@ function buildQuery(userQuery) {
 
 async function searchCourses(userQuery) {
     const query = buildQuery(userQuery);
-    let req = await fetch('http://localhost:9200/kurse/_search', {
+    let req = await fetch(`${baseUrl}/kurse/_search`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
+            'Authorization': 'ApiKey blNWSVRuc0JPSlRLQkhzTk03eXA6TUVvUHpTM0NUa2EtS3VhWUZtUVp1QQ'
         },
         body: JSON.stringify(query)
     });

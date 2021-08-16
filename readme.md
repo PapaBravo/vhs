@@ -21,6 +21,13 @@ docker start kib01-test
 docker start nominatim
 ```
 
+## Environment
+For local deployment with docker, copy the env template
+
+```sh
+cp transformer/local.env transformer/.env
+```
+For production deployments, change host and password accordingly.
 
 ## Set up Elastic and Kibana
 
