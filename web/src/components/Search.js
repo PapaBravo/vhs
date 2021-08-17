@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Scroll from './Scroll';
 import CourseResultList from './CourseResultList';
 import CourseMap from './CourseMap';
@@ -49,10 +49,9 @@ async function searchCourses(userQuery) {
 function Search() {
     const [results, setResults] = useState([]);
 
-    const handleChange = e => {
-        searchCourses(e.target.value)
-            .then(res => setResults(res));
-    };
+    const handleChange = (e => searchCourses(e.target.value).then(setResults));
+
+    useEffect(() => searchCourses('').then(setResults), []);
 
     function searchList() {
         return (
