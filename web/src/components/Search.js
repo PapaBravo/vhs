@@ -73,10 +73,8 @@ function Search() {
                 <div className="ma0">
                     <h2 className="f2">VHS Berlin Course Search</h2>
                     <p>
-                        The <a href="https://www.berlin.de/vhs/">official VHS page</a>
-                        offers a very detailed but cumbersome search.
-                        It specifically does not give good feedback
-                        on the location of courses
+                        The <a href="https://www.berlin.de/vhs/">official VHS page</a> offers a very detailed but cumbersome search.
+                        It specifically does not give good feedback on the location of courses
                         even though that is very important for many people.
                     </p>
                     <p>
