@@ -30,7 +30,9 @@ function CourseMap({ filteredCourses }) {
         return (
             <Marker position={position} key={c.guid}>
                 <Popup maxHeight="200">
-                    <h2>{c.name}</h2>
+                    <a href={c.webadresse.uri} target="_blank" rel="noopener noreferrer">
+                        <h2>{c.name}</h2>
+                    </a>
                     {descriptions}
                 </Popup>
             </Marker>
