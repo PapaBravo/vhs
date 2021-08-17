@@ -68,9 +68,9 @@ function Search() {
     }
 
     return (
-        <div className="garamond flex flex-column h-100">
+        <div className="flex flex-column helvetica">
             <section className="w-100 pa2">
-                <div className="navy georgia ma0">
+                <div className="ma0">
                     <h2 className="f2">VHS Berlin Course Search</h2>
                     <p>
                         The <a href="https://www.berlin.de/vhs/">official VHS page</a>
